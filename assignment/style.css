@@ -2,14 +2,46 @@
 body {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+header {
+    background-color: teal;
+    width: 100%;
+    height: 13vh;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    justify-content: center;
+    margin: none;
+    border: none;
+    align-items: center;
+    color:blanchedalmond;
 }
 
 #main-content {
     background-image: radial-gradient(gray 0%, rgb(66, 65, 65) 85%, black 100%);
     width: 100%;
     height: 75vh;
+}
+
+footer {
+    background-color: teal;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+
+p {
+    color: rgb(211, 79, 31);
+    font-style: italic;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Make the header and footer a different color from the background */
 
