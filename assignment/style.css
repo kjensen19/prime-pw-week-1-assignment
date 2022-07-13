@@ -1,5 +1,16 @@
 /* Give your page a fun background color */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#main-content {
+    background-image: radial-gradient(gray 0%, rgb(66, 65, 65) 85%, black 100%);
+    width: 100%;
+    height: 75vh;
+}
 /* Make the header and footer a different color from the background */
 
 /* Align the h1 containing your name in the center of the header*/
