@@ -31,12 +31,20 @@ h1 {
 #list-content {
     background-image: radial-gradient(gray 0%, rgb(66, 65, 65) 85%, black 100%);
     width: 100%;
+    border-top: solid 1rem black;
+    border-right: solid 1rem black;
+    border-bottom: solid 1rem black;
 }
 
 ul {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2rem;
     color: orangered;
+}
+li{
+    font-size: 2rem;
+    margin: auto;
+    padding-bottom: 2rem;
 }
 img {
     border: solid 1rem black;
