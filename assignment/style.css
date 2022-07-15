@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: none;
+    border: none;
 }
 
 header {
@@ -14,6 +16,13 @@ header {
     align-items: center;
 }
 
+footer {
+    background-color: teal;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
 h1 {
     justify-content: center;
     margin: none;
@@ -41,28 +50,21 @@ h1 {
 ul {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2rem;
-    color: orangered;
-    padding-top: 2rem;;
+    color: rgb(240, 197, 133);
+    padding-top: 2rem;
 }
 
 li{
-    font-size: 2rem;
+    font-size: 2vw;
     margin: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 1vw;
+    line-height: 2.7vw;
 }
 
 img {
     border: solid 1rem black;
     margin: auto;
-    width: 30rem;
-}
-
-footer {
-    background-color: teal;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    height: 15vh;
+    width: 30rem;  
 }
 
 p {
@@ -72,13 +74,23 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: none;
 }
 
 #author {
     align-items: right;
     justify-content: right;
-    padding:0 19.7rem 0 0;
+    padding:0 19rem 0 0;
     margin-top: none;
+    position: relative;
+}
+
+@media (min-width: 768px) 
+{
+   body
+   {
+       font-size: 10px; 
+   }
 }
 /* Make the header and footer a different color from the background */
 
