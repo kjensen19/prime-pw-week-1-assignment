@@ -4,9 +4,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: none;
-    border: none;
-    
+    margin: 0;
+    border: none; 
 }
 
 header {
@@ -15,9 +14,7 @@ header {
     height: 10vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 
 footer {
