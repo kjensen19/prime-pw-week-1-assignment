@@ -5,6 +5,7 @@ body {
     width: 100%;
     margin: none;
     border: none;
+    
 }
 
 header {
@@ -23,6 +24,7 @@ footer {
     align-items: center;
     height: 17vh;
 }
+
 h1 {
     justify-content: center;
     margin: none;
@@ -87,13 +89,26 @@ p {
     position: relative;
 }
 
-@media (min-width: 768px) 
+
+@media (max-width: 585px) 
 {
-   body
-   {
-       font-size: 10px; 
-   }
+
+    img {
+        max-height: 49vw;
+    }
+    #list-content, #main-content {
+        max-width: auto;
+        max-height: 49vw;
+    }
+    header, footer {
+        max-height: 25.5vw;
+    }
+    ul {
+        margin: auto;
+        padding: 0 0 0 0;
+    }
 }
+
 /* Make the header and footer a different color from the background */
 
 /* Align the h1 containing your name in the center of the header*/
