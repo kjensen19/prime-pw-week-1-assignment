@@ -81,7 +81,8 @@ img {
 }
 
 #image-content:hover .location-text {
-    background-color:teal;left:1vw;
+    background-color:teal;
+    left:1vw;
 }
 
 p {
